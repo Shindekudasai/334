@@ -1163,7 +1163,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #5954cb;
+  background: #50D093;
   border: 3px solid #cbc9ef;
   display: -ms-flexbox;
   display: flex;
@@ -1186,7 +1186,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #3c37b5;
+  background: #AAE0C6;
 }
 
 .device-wrapper {
@@ -1989,7 +1989,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #3631a1;
+  color: #AAE0C6;
   text-decoration: underline;
 }
 
