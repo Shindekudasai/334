@@ -1163,7 +1163,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #5954cb;
+  background: #50D093;
   border: 3px solid #cbc9ef;
   display: -ms-flexbox;
   display: flex;
@@ -1186,7 +1186,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #3c37b5;
+  background: #AAE0C6;
 }
 
 .device-wrapper {
@@ -1420,8 +1420,9 @@ section {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #403abf;
-  border-color: #3c37b5;
+  /* #FFCD1A Candlelight yellow */
+  background-color: #FFCD1A;
+  border-color: #FFCD1A;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -1988,7 +1989,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #3631a1;
+  color: #AAE0C6;
   text-decoration: underline;
 }
 
@@ -2101,13 +2102,6 @@ mark,
   content: "\2014 \00A0";
 }
 
-.text-primary {
-  color: #50D093 !important;
-}
-
-a.text-primary:hover, a.text-primary:focus {
-  color: #3c37b5 !important;
-}
 
 /*
  * 4. PAGINATION
@@ -2304,7 +2298,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5954cb !important;
+  color: #50D093 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
