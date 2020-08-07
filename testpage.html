@@ -46,28 +46,35 @@
       </div>
     </nav>
   </header>
-  <!-- Hero Section-->
-  <section class="hero bg-top" id="hero" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+  <!-- Section 1-->
+  <section class="hero bg-top" id="hero" style="background: url(img/banner-4.png)  no-repeat; background-size: 100% 80%">
     <div class="container ">
       <div class="row">
-        <div class="col-sm-4 ustify-content-center">
-          <p>Login</p>
+        <div class="col-sm-4">
+          col 1
           <div class="device-wrapper">
             <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-              <div class="screen"><img class="img-fluid" src="img/mockupimg/Logo.svg" alt=""></div>
+              <div class="screen">
+                <video class="img-fluid"  src="img/test.mp4" autoplay loop></video>
+                <!-- <img class="img-fluid" src="img/test.gif" alt=""> -->
             </div>
-          </div>
-        </div>
-        <div class="col-sm-4 justify-content-center">
-          Login
-          <div class="device-wrapper">
-            <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-              <div class="screen"><img class="img-fluid" src="img/mockupimg/Login.svg" alt=""></div>
+
             </div>
           </div>
         </div>
         <div class="col-sm-4">
-          Signup
+          col 2
+          <div class="device-wrapper">
+            <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+              <div class="screen">
+                <video class="img-fluid"  src="img/test7.mp4" autoplay loop></video>
+                <!-- <img class="img-fluid" src="img/mockupimg/Login.svg" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          col 3
           <div class="device-wrapper">
             <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
               <div class="screen"><img class="img-fluid" src="img/mockupimg/Register.svg" alt=""></div>
@@ -79,6 +86,54 @@
 
     </div>
 
+  </section>
+
+  <!-- Section 2-->
+  <section class="hero bg-top" id="hero" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+    <div class="container">
+      <div class="row py-5">
+
+        <div class="col-lg-5 ml-auto ">
+          <div class="device-wrapper mx-auto">
+            <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+              <div class="screen"><img class="img-fluid" src="img/test.gif" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <h1 class="font-weight-bold">Paul is the best</h1>
+          <p class="my-4 text-muted">When life gets busy, don't face it down alone. Get help with trusted contractors and businesses in your local area.
+            Blah blah blah blah pah mah nah.
+          </p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#">See how it works</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 3-->
+  <section class="hero bg-top" id="hero">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-5 py-5">
+          <h1 class="font-weight-bold">Paul is the best</h1>
+          <p class="my-4 text-muted">When life gets busy, don't face it down alone. Get help with trusted contractors and businesses in your local area.
+            Blah blah blah blah pah mah nah.
+          </p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#">See how it works</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-6 ml-0">
+          <div class="device-wrapper mx-auto">
+            <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+              <div class="screen"><img class="img-fluid" src="img/mockupimg/login.svg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- JavaScript files-->
@@ -105,6 +160,21 @@
         document.body.insertBefore(div, document.body.childNodes[0]);
       }
     }
+
+
+
+
+    //play video on hover
+
+    // $(document).on('mouseover', 'video', function() { //selecting the document 1st will grab new content
+    //     $(this).get(0).play();
+    // });
+    //
+    // //pause video on mouse leave
+    // $(document).on('mouseleave', 'video', function() {
+    //     $(this).get(0).pause();
+    // });
+
     // this is set to BootstrapTemple website as you cannot
     // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
     // while using file:// protocol
