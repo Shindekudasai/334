@@ -10,8 +10,7 @@
 * ===================================================
 *    Custom Bootstrapious Utils
 * ===================================================
-*/
-/*
+*
    Icons
    ------------------------
 */
@@ -870,7 +869,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .font-weight-bold {
-  font-weight: 800 !important;
+  font-size: 4em;
+  font-weight: bolder !important;
 }
 
 .accordion .card {
@@ -2304,7 +2304,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5954cb !important;
+  color: #50D093 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
