@@ -1090,7 +1090,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #50D093;
+  background: #5954cb;
   border: 3px solid #fff;
   display: block;
   position: absolute;
@@ -1163,7 +1163,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #50D093;
+  background: #5954cb;
   border: 3px solid #cbc9ef;
   display: -ms-flexbox;
   display: flex;
@@ -1186,7 +1186,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #AAE0C6;
+  background: #3c37b5;
 }
 
 .device-wrapper {
@@ -1222,7 +1222,7 @@ section {
 }
 
 .owl-carousel .owl-dots .owl-dot.active span {
-  background: #50D093;
+  background: #5954cb;
 }
 
 .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] {
@@ -1420,9 +1420,8 @@ section {
 
 .btn-primary:hover {
   color: #fff;
-  /* #FFCD1A Candlelight yellow */
-  background-color: #FFCD1A;
-  border-color: #FFCD1A;
+  background-color: #403abf;
+  border-color: #3c37b5;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -1975,7 +1974,7 @@ section {
  * 3. TYPE
  */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1989,7 +1988,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #AAE0C6;
+  color: #3631a1;
   text-decoration: underline;
 }
 
@@ -2102,6 +2101,13 @@ mark,
   content: "\2014 \00A0";
 }
 
+.text-primary {
+  color: #50D093 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #3c37b5 !important;
+}
 
 /*
  * 4. PAGINATION
