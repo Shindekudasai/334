@@ -1090,7 +1090,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #5954cb;
+  background: #50D093;
   border: 3px solid #fff;
   display: block;
   position: absolute;
@@ -1222,7 +1222,7 @@ section {
 }
 
 .owl-carousel .owl-dots .owl-dot.active span {
-  background: #5954cb;
+  background: #50D093;
 }
 
 .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] {
