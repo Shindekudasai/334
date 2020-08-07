@@ -29,26 +29,45 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
+    <!-- <svg viewBox="0 0 1400 520" preserveAspectRatio="none" style="top: 500px;height: 100%; width: 100%; position: absolute; display: block; float:left;">
+      <path d="M0,64L60,74.7C120,85,240,107,360,128C480,149,600,171,720,154.7C840,139,960,85,1080,101.3C1200,117,1320,203,1380,245.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z" style="stroke: none; fill: #fff222;"></path>
+    </svg>
+    <svg viewBox="0 0 1400 320" preserveAspectRatio="none" style="height: 100%; width: 100%; position: absolute; display: block; float:left;">
+      <path d="M0,160L60,181.3C120,203,240,245,360,224C480,203,600,117,720,90.7C840,64,960,96,1080,101.3C1200,107,1320,85,1380,74.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z" style="stroke: none; fill: #f2f3f7;"></path>
+    </svg> -->
+
+
     <!-- navbar-->
     <header class="header">
+
       <nav class="navbar navbar-expand-lg fixed-top">
+
+
         <div class="container"><a class="navbar-brand" href="#"><img src="img/logo.svg" alt="" width="110"></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link link-scroll active" href="#hero">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link link-scroll active" href="#home">Home <span class="sr-only">(current)</span></a></li>
               <li class="nav-item"><a class="nav-link link-scroll" href="#about">Features</a></li>
               <li class="nav-item"><a class="nav-link link-scroll" href="#services">Business</a></li>
-              <li class="nav-item"><a class="nav-link link-scroll" href="#prototype">Prototype</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#prototype">Demo</a></li>
               <li class="nav-item"><a class="nav-link link-scroll" href="#team">Team</a></li>
             </ul>
           </div>
+
         </div>
+
+
       </nav>
+
     </header>
     <!-- Hero Section-->
-    <section class="hero bg-top" id="hero" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+    <section class="hero bg-top " id="home" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%">
+
+
+
       <div class="container">
+
         <div class="row py-5">
           <div class="col-lg-5 py-5">
             <h1 class="font-weight-bold">Paul is the best</h1>
@@ -56,15 +75,27 @@
               Blah blah blah blah pah mah nah.
             </p>
             <ul class="list-inline mb-0">
-              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#">See how it works</a></li>
+              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4 link-scroll" href="#prototype">Try The Prototype</a></li>
             </ul>
           </div>
           <div class="col-lg-6 ml-auto">
-            <div class="device-wrapper mx-auto">
+            <div class="device-wrapper mx-auto" style="position: absolute;">
               <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                 <div class="screen"><img class="img-fluid" src="img/mockupimg/login.svg" alt=""></div>
+
+
               </div>
             </div>
+
+            <div class="device-wrapper mx-auto" style="position: relative; left: 59px;top: -25px; z-index: 0; width: 70%;">
+              <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <div class="screen"><img class="img-fluid" src="img/mockupimg/logo.svg" alt=""></div>
+
+
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
@@ -129,6 +160,8 @@
                       <video class="img-fluid" autoplay loop muted>
                         <source src="img/videos/5-finding-a-provider-small.mp4" type="video/mp4">
                       </video>
+
+
                   </div>
                 </div>
               </div>
@@ -237,10 +270,14 @@
       </div>
     </section>
     <!-- Section 3-->
-    <section class="hero bg-top" id="hero">
+    <section class="hero bg-top">
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-6 py-5">
+            <!-- <svg height="10" width="500">
+              <line x1="0" y1="2" x2="50" y2="2" style="stroke:rgb(80,208,147);stroke-width:5" />
+            </svg> -->
+
             <h1 class="font-weight-bold">Join Sawyer</h1>
             <p class="my-4 text-muted">It's easy. Just simple sign up right now and start looking for you provider (lol)
             </p>
@@ -263,7 +300,7 @@
       </div>
     </section>
     <!-- Section 4-->
-    <section class="hero bg-top " id="hero" style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
+    <section class="hero bg-top " style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
       <div class="container">
         <div class="row py-5">
 
@@ -294,7 +331,7 @@
       </div>
     </section>
     <!-- Section 5-->
-    <section class="hero bg-top" id="hero">
+    <section class="p-0" style="background: url(img/side-bg.png) no-repeat; background-size: 40% 100%; background-position: left center">
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-6 py-5">
@@ -322,7 +359,7 @@
       </div>
     </section>
     <!-- Section 6-->
-    <section class="hero bg-top " id="hero" style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
+    <section class="hero bg-top " style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
       <div class="container">
         <div class="row py-5">
 
