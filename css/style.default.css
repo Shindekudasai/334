@@ -1090,7 +1090,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #5954cb;
+  background: #50D093;
   border: 3px solid #fff;
   display: block;
   position: absolute;
@@ -1110,7 +1110,7 @@ section {
 }
 
 .footer-link:hover, .footer-link:focus {
-  color: #5954cb;
+  color: #50D093;
   text-decoration: none;
 }
 
@@ -2192,7 +2192,7 @@ a.text-primary:hover, a.text-primary:focus {
 * 5. UTILITIES
 */
 .bg-primary {
-  background-color: #5954cb !important;
+  background-color: #50D093 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -2369,7 +2369,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #5954cb;
+  background-color: #50D093;
 }
 
 .badge-primary[href]:hover, .badge-primary[href]:focus {
