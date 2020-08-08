@@ -1087,7 +1087,7 @@ section {
 }
 
 .footer-link:hover, .footer-link:focus {
-  color: #5954cb;
+  color: #50D093;
   text-decoration: none;
 }
 
@@ -1454,15 +1454,15 @@ section {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #5954cb;
-  border-color: #5954cb;
+  background-color: #50D093;
+  border-color: #50D093;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3c37b5;
-  border-color: #3934ab;
+  background-color: #50D093;
+  border-color: #AAE0C6;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
