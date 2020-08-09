@@ -100,7 +100,7 @@
   <section class="with-pattern-1">
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P1.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" src="img/P1.svg" id="img1" onclick="modalFuncation(this.id)" alt="Our initial research consisted upon researching the domain. We found a category that our team has had experience with which is using services in the shared economy. In that sector, we noticed a lack of easy to use applications in our area which began the idea of Sawyer. Sawyer has the goal of providing  skilled workers with an innovative platform to offer their labour to clients, while providing the customer an easy to use, all in one application to hire professional labour."></div>
             <div class="col-lg-6">
               <h2>Domain</h2>
               <p class="text-muted">Our initial research consisted upon researching the domain. We found a category that our team has had experience with which is using services in the shared economy. In that sector, we noticed a lack of easy to use applications in our area which began the idea of Sawyer. Sawyer has the goal of providing  skilled workers with an innovative platform to offer their labour to clients, while providing the customer an easy to use, all in one application to hire professional labour.</p>
@@ -275,6 +275,7 @@
     </footer>
 
   <!-- JavaScript files-->
+  <script src="js/modal-photo.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
@@ -298,24 +299,6 @@
         document.body.insertBefore(div, document.body.childNodes[0]);
       }
     }
-    //play video on hover
-
-    const mouseTarget = document.getElementByID('mouseTarget');
-    const playback = document.getElementByID('videoTarget');
-
-    mouseTarget.addEventListener('mouseover', e =>{
-      $(this).get(0).play();
-    });
-
-    // $(document).on('mouseover', 'video', function() { //selecting the document 1st will grab new content
-    //     $(this).get(0).play();
-    // });
-    //
-    // //pause video on mouse leave
-    // $(document).on('mouseleave', 'video', function() {
-    //     $(this).get(0).pause();
-    // });
-
     // this is set to BootstrapTemple website as you cannot
     // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
     // while using file:// protocol
