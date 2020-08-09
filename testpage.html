@@ -121,8 +121,8 @@
             Each provider is required to do a criminal check and upload their idenifications.
             It's easy to apply to be a provider on Sawyer (blah blah blah idk)
           </p>
-          <video class="img-fluid" loop muted>
-            <source src="img/videos/3-provider-signup-small.mp4" type="video/mp4">
+          <video class="img-fluid hasVideo" id="" loop muted>
+            <source class="test" src="img/videos/3-provider-signup-small.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -156,14 +156,21 @@
       }
     }
     //play video on hover
+    //
+    // const mouseTarget = document.getElementByID('mouseTarget');
+    // const playback = document.getElementByID('videoTarget');
+    //
+    // mouseTarget.addEventListener('mouseover', e =>{
+    //   $(this).get(0).play();
+    // });
 
-    const mouseTarget = document.getElementByID('mouseTarget');
-    const playback = document.getElementByID('videoTarget');
-
-    mouseTarget.addEventListener('mouseover', e =>{
-      $(this).get(0).play();
+    $(function(){
+      $(".hasVideo").on("mouseover", function){
+        $('.test').get(0).find('source').attr('srs')play());
+      )};
     });
 
+    //
     // $(document).on('mouseover', 'video', function() { //selecting the document 1st will grab new content
     //     $(this).get(0).play();
     // });
