@@ -2,7 +2,7 @@
 // Em's Modal Photo Thing all in JS not Jquery cause i'm stupid and don't know Jquery
 //Modal https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
 // Get the modal
-var modal = document.getElementById("modal-photo");
+var modal = document.getElementById("modal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 function modalFunction(clicked_id){
