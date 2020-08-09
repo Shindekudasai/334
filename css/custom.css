@@ -86,3 +86,35 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+/* iframes protopie */
+#frame-wrap{
+	
+	padding: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+#frame-protopie{
+	width: 375px;
+	height: 812px;
+	border: 1px solid black;
+}
+
+#frame-protopie{
+	-ms-zoom:0.75;
+	-moz-transform:scale(0.75);
+	-moz-transform-origin:0 0;
+	-o-transform:scale(0.75);
+	-o-transform-origin:0 0;
+	-webkit-transform:scale(0.75);
+	-webkit-transform-origin:0 0;
+}
+
+
+
+
+
+
+
+
