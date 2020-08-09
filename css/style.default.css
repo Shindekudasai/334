@@ -961,6 +961,10 @@ section {
   z-index: 1;
 }
 
+.footer-bg{
+  background: #F7F9FC;
+}
+
 .section-padding {
   padding: 6.5rem 0;
 }
