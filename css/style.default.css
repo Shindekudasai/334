@@ -1194,7 +1194,18 @@ section {
   padding-bottom: 202.898072%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
+.device[data-device=iPhoneXBasicBlack][data-orientation=portrait][data-color=black] .screen {
+  top: 2.185596%;
+  left: 5.5%;
+  width: 90.225895%;
+  height: 93.628809%;
+}
+
+.device[data-device=iPhoneXBasicBlue][data-orientation=portrait][data-color=black] {
+  padding-bottom: 202.898072%;
+}
+
+.device[data-device=iPhoneXBasicBlue][data-orientation=portrait][data-color=black] .screen {
   top: 2.185596%;
   left: 5.5%;
   width: 90.225895%;
@@ -1248,13 +1259,13 @@ section {
   overflow: hidden;
 }
 
-.device[data-device="iPhoneXBasicWhite"][data-orientation="portrait"][data-color="black"] {
+.device[data-device="iPhoneXBasicBlue"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 202.898072%;
-  background-image: url(../img/device-mockups/iPhoneX/portrait_basic_white.png) !important;
+  background-image: url(../img/device-mockups/iPhoneX/portrait_basic_blue.png) !important;
   z-index: initial;
 }
 
-.device[data-device="iPhoneXBasicWhite"][data-orientation="portrait"][data-color="black"] .screen {
+.device[data-device="iPhoneXBasicBlue"][data-orientation="portrait"][data-color="black"] .screen {
   top: 15px;
   left: 6%;
   width: 89%;
