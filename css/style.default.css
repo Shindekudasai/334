@@ -1,41 +1,5 @@
 
-/*
-   Text utils
-   ------------------------
-*/
-.text-uppercase {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  letter-spacing: .1em;
-}
 
-.text-sm {
-  font-size: 0.875rem;
-}
-
-.text-base {
-  font-size: 1rem;
-}
-
-.text-lg {
-  font-size: 1.25rem;
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-.text-shadow-primary {
-  text-shadow: 2px 2px 2px rgba(89, 84, 203, 0.1);
-}
-
-.text-decoration-underline {
-  text-decoration: underline;
-}
-
-.text-inherit {
-  color: inherit;
-}
 
 /*
     Rounded corners - lg, sm
@@ -991,11 +955,11 @@ section {
 .with-pattern-2::before {
   content: '';
   position: absolute;
-  background: url(../img/pattern2.png);
-  width: 265px;
+  background: url(../img/pattern-2.png);
+  width: 770px;
   height: 325px;
-  right: 0px;
-  top: 0px;
+  right: 80%;
+  top: 60%;
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -1033,52 +997,6 @@ section {
 
 .navbar-toggler {
   color: #17141f;
-}
-
-.card.with-pattern {
-  position: relative;
-}
-
-.card.with-pattern::before {
-  content: '';
-  background: url(../img/pattern-2.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.5;
-  border-radius: 0.35rem;
-}
-
-.testimonial-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: calc(-3rem - 50px);
-  left: calc(50% - 50px);
-}
-
-.testimonial-img::after {
-  content: '\f10e';
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #5954cb;
-  border: 3px solid #fff;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-family: 'Font Awesome\ 5 Free';
-  font-weight: 900;
-  color: #fff;
-  text-align: center;
-  line-height: 35px;
-  font-size: 0.8rem;
 }
 
 .footer-link {
