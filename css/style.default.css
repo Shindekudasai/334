@@ -961,6 +961,10 @@ section {
   z-index: 1;
 }
 
+.footer-bg{
+  background: #F7F9FC;
+}
+
 .section-padding {
   padding: 6.5rem 0;
 }
@@ -1466,14 +1470,14 @@ section {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #339EDF;
   border-color: #17a2b8;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #8CCEF6;
+  border-color: #8CCEF6;
 }
 
 .btn-info:focus, .btn-info.focus {

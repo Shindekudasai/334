@@ -10,14 +10,9 @@
   <meta name="robots" content="all,follow">
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-  <!-- Owl Carousel-->
-  <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.carousel.css">
-  <link rel="stylesheet" href="vendor/owl.carousel2/assets/owl.theme.default.css">
-  <!-- Modal Video-->
-  <link rel="stylesheet" href="vendor/modal-video/css/modal-video.min.css">
   <!-- Device Mockup-->
   <link rel="stylesheet" href="css/device-mockups.css">
-  <!-- Custom stylesheet-->
+  <!-- Main Style stylesheet-->
   <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
   <!-- Secondary stylesheet-->
   <link rel="stylesheet" href="css/custom.css">
@@ -25,25 +20,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <!-- Favicon-->
   <link rel="shortcut icon" href="img/logo-icon.svg">
-  <!-- Tweaks for older IEs-->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
 </head>
 
 <body>
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a class="navbar-brand" href="#"><img src="" alt="" width="110"></a>
+
+      <div class="container"><a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="110"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i
             class="fas fa-bars"></i></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link link-scroll" href="index.html">Home <span class="sr-only">(current)</span></a></li>
-          </ul>
-        </div>
       </div>
+
     </nav>
   </header>
 
@@ -79,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 py-5 px-0" style="left: 200px;">
+        <div class="col-lg-3 py-5 px-0" style="left: 200px;">
           <h1 class="font-weight-bold">Process</h1>
           <p class="my-4 text-muted">Grey Scale? Why not blue scale
             Curabitur blandit erat ligula, ut semper dui posuere at.
@@ -101,7 +90,7 @@
   <section class="with-pattern-1">
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P1.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" src="img/P1.svg" id="img1" onclick="modalFunction(this.id)" alt="Our initial research consisted upon researching the domain. We found a category that our team has had experience with which is using services in the shared economy. In that sector, we noticed a lack of easy to use applications in our area which began the idea of Sawyer. Sawyer has the goal of providing  skilled workers with an innovative platform to offer their labour to clients, while providing the customer an easy to use, all in one application to hire professional labour."></div>
             <div class="col-lg-6">
               <h2>Domain</h2>
               <p class="text-muted">Our initial research consisted upon researching the domain. We found a category that our team has had experience with which is using services in the shared economy. In that sector, we noticed a lack of easy to use applications in our area which began the idea of Sawyer. Sawyer has the goal of providing  skilled workers with an innovative platform to offer their labour to clients, while providing the customer an easy to use, all in one application to hire professional labour.</p>
@@ -119,7 +108,7 @@
               <h2>Initial Research/Case Study</h2>
               <p class="text-muted">To gather data for a successful application, we conducted an analysis on other pre-existing services such as Taskrabbit, Craigslist, and Zaarly to find out what they did well, what they didn’t, and the features that lacked.</p>
             </div>
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P2.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img2" onclick="modalFunction(this.id)" src="img/P2.svg" alt="To gather data for a successful application, we conducted an analysis on other pre-existing services such as Taskrabbit, Craigslist, and Zaarly to find out what they did well, what they didn’t, and the features that lacked."></div>
           </div>
         </div>
     </section>
@@ -129,7 +118,7 @@
   <section class="with-pattern-1">
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P7.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img3" onclick="modalFunction(this.id)" src="img/P7.svg" alt="The interface needed to have a clear theme, be extremely legible as well as pleasing to the eye. After testing several colour palettes, we landed on using a combination of colours, with emerald green as the primary option."></div>
             <div class="col-lg-6">
               <h2>Design Choices</h2>
               <p class="text-muted">The interface needed to have a clear theme, be extremely legible as well as pleasing to the eye. After testing several colour palettes, we landed on using a combination of colours, with emerald green as the primary option.</p>
@@ -147,7 +136,7 @@
               <h2>Typography</h2>
               <p class="text-muted">Picking the correct typography was of great importance as it is a major element of the visual design. Several sans serif typefaces were tested including Roboto and Futura but Poppins was chosen due to its legibility and ability to capture the modern and clean aesthetic that was trying to be achieved.</p>
             </div>
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P4.3.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img4" onclick="modalFunction(this.id)" src="img/P4.3.svg" alt="Picking the correct typography was of great importance as it is a major element of the visual design. Several sans serif typefaces were tested including Roboto and Futura but Poppins was chosen due to its legibility and ability to capture the modern and clean aesthetic that was trying to be achieved."></div>
           </div>
         </div>
     </section>
@@ -157,7 +146,7 @@
   <section class="with-pattern-1">
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P4.1.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img5" onclick="modalFunction(this.id)" src="img/P4.1.svg" alt="Our application components were designed in line with the chosen colour palettes. Appropriate sized buttons were created with rounded edges as they are easier to follow and the navigation buttons had to be easily recognized when selected or not."></div>
             <div class="col-lg-6">
               <h2>Components</h2>
               <p class="text-muted">Our application components were designed in line with the chosen colour palettes. Appropriate sized buttons were created with rounded edges as they are easier to follow and the navigation buttons had to be easily recognized when selected or not.</p>
@@ -175,7 +164,7 @@
               <h2>Wireflows</h2>
               <p class="text-muted">The greybox wireflows allowed for us to have a scope of majority of elements in the application. We were able to plan how the design was going to be organized and where the interactions took place.</p>
             </div>
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P5.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img6" onclick="modalFunction(this.id)" src="img/P5.svg" alt="The greybox wireflows allowed for us to have a scope of majority of elements in the application. We were able to plan how the design was going to be organized and where the interactions took place."></div>
           </div>
         </div>
     </section>
@@ -188,7 +177,7 @@
             <div class="col-lg-6">
               <p class="text-muted">The completed wireflows added colour, more detailed elements, and text to give a more detailed scope on what the application would look like before prototyping. We were able to see if the correct design elements were in place such as the highlighted home button in the navigation bar.</p>
             </div>
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P6.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img7" onclick="modalFunction(this.id)" src="img/P6.svg" alt="The completed wireflows added colour, more detailed elements, and text to give a more detailed scope on what the application would look like before prototyping. We were able to see if the correct design elements were in place such as the highlighted home button in the navigation bar."></div>
           </div>
         </div>
     </section>
@@ -198,7 +187,7 @@
   <section class="with-pattern-1">
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P8.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img8" onclick="modalFunction(this.id)" src="img/P8.svg" alt="The experience map is able to visualize the end-to-end experience for both the customer and provider, taking them through the steps needed for the expected result through our app. With the maps we were able to detail frustrations that users could have and how we could solve them."></div>
             <div class="col-lg-6">
               <h2>Experience Map</h2>
               <p class="text-muted">The experience map is able to visualize the end-to-end experience for both the customer and provider, taking them through the steps needed for the expected result through our app. With the maps we were able to detail frustrations that users could have and how we could solve them.</p>
@@ -212,7 +201,7 @@
   <section>
         <div class="container">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow" src="img/P9.svg" alt=""></div>
+            <div class="col-lg-6 mb-5 mb-lg-0"><img class="img-fluid w-100 shadow modal-photo" id="img9" onclick="modalFunction(this.id)" src="img/P9.svg" alt="With our provider experience map, it reflected on frustrations workers would have when looking for jobs and how our application could fix those issues as well as laying out the process from the provider creating an account to receiving successful payment and feedback."></div>
              <div class="col-lg-6">
               <p class="text-muted">With our provider experience map, it reflected on frustrations workers would have when looking for jobs and how our application could fix those issues as well as laying out the process from the provider creating an account to receiving successful payment and feedback.</p>
             </div>
@@ -225,8 +214,15 @@
 
 <a class="scropll-top-btn" id="scrollTop" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
 
+    <!--  Photo Modal https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img -->
+      <div id="modal" class="modalStyle">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="image">
+        <div id="caption"></div>
+      </div>
 
-   <footer class="with-pattern-1 position-relative">
+
+   <footer class="footer-bg position-relative">
       <div class="container section-padding-y">
         <div class="row">
           <div class="col-lg-3 mb-4 mb-lg-0"><img class="mb-4" src="img/logo.svg" alt="" width="110">
@@ -236,11 +232,11 @@
             <h2 class="h5 mb-4">Follow the team</h2>
             <div class="d-flex">
               <ul class="list-unstyled d-inline-block mr-4 mb-0">
-                <li class="mb-2"><a class="footer-link" href="#" target="_blank">Khanh Dinh </a></li>
-                <li class="mb-2"><a class="footer-link" href="#" target="_blank">Adrian He</a></li>
-                <li class="mb-2"><a class="footer-link" href="#" target="_blank">Ryan Heeps</a></li>
+                <li class="mb-2"><a class="footer-link" href="#" target="_blank">Adrian He </a></li>
                 <li class="mb-2"><a class="footer-link" href="#" target="_blank">Emily Li</a></li>
                 <li class="mb-2"><a class="footer-link" href="#" target="_blank">Kevin Yu</a></li>
+                <li class="mb-2"><a class="footer-link" href="" target="_blank">Khanh Dinh</a></li>
+                <li class="mb-2"><a class="footer-link" href="#" target="_blank">Ryan Heeps</a></li>
               </ul>
             </div>
           </div>
@@ -276,10 +272,9 @@
     </footer>
 
   <!-- JavaScript files-->
+  <script src="js/modal-photo.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/owl.carousel2/owl.carousel.min.js"></script>
-  <script src="vendor/modal-video/js/modal-video.js"></script>
   <script src="js/front.js"></script>
   <script>
     // ------------------------------------------------------- //
@@ -299,24 +294,6 @@
         document.body.insertBefore(div, document.body.childNodes[0]);
       }
     }
-    //play video on hover
-
-    const mouseTarget = document.getElementByID('mouseTarget');
-    const playback = document.getElementByID('videoTarget');
-
-    mouseTarget.addEventListener('mouseover', e =>{
-      $(this).get(0).play();
-    });
-
-    // $(document).on('mouseover', 'video', function() { //selecting the document 1st will grab new content
-    //     $(this).get(0).play();
-    // });
-    //
-    // //pause video on mouse leave
-    // $(document).on('mouseleave', 'video', function() {
-    //     $(this).get(0).pause();
-    // });
-
     // this is set to BootstrapTemple website as you cannot
     // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
     // while using file:// protocol
