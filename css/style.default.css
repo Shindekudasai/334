@@ -1,79 +1,4 @@
 /*
-=========================================
-=========================================
-
-   Nova | Bootstrap app landing
-
-=========================================
-========================================= */
-/*
-* ===================================================
-*    Custom Bootstrapious Utils
-* ===================================================
-*/
-/*
-   Icons
-   ------------------------
-*/
-.icon-sm {
-  width: 40px !important;
-  height: 40px !important;
-}
-
-.icon-md {
-  width: 60px !important;
-  height: 60px !important;
-}
-
-.icon-lg {
-  width: 80px !important;
-  height: 80px !important;
-}
-
-.icon-xl {
-  width: 120px !important;
-  height: 120px !important;
-}
-
-/*
-   Text utils
-   ------------------------
-*/
-.text-uppercase {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  letter-spacing: .1em;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-}
-
-.text-base {
-  font-size: 1rem;
-}
-
-.text-lg {
-  font-size: 1.25rem;
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-.text-shadow-primary {
-  text-shadow: 2px 2px 2px rgba(89, 84, 203, 0.1);
-}
-
-.text-decoration-underline {
-  text-decoration: underline;
-}
-
-.text-inherit {
-  color: inherit;
-}
-
-/*
     Rounded corners - lg, sm
    ------------------------
 */
@@ -870,7 +795,8 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
 }
 
 .font-weight-bold {
-  font-weight: 800 !important;
+  font-size: 4em;
+  font-weight: bolder !important;
 }
 
 .accordion .card {
@@ -1023,6 +949,22 @@ section {
   z-index: 1;
 }
 
+.with-pattern-2::before {
+  content: '';
+  position: absolute;
+  background: url(../img/pattern-2.png);
+  width: 770px;
+  height: 325px;
+  right: 80%;
+  top: 30%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.footer-bg{
+  background: #F7F9FC;
+}
+
 .section-padding {
   padding: 6.5rem 0;
 }
@@ -1058,59 +1000,13 @@ section {
   color: #17141f;
 }
 
-.card.with-pattern {
-  position: relative;
-}
-
-.card.with-pattern::before {
-  content: '';
-  background: url(../img/pattern-2.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.5;
-  border-radius: 0.35rem;
-}
-
-.testimonial-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: calc(-3rem - 50px);
-  left: calc(50% - 50px);
-}
-
-.testimonial-img::after {
-  content: '\f10e';
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #5954cb;
-  border: 3px solid #fff;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  font-family: 'Font Awesome\ 5 Free';
-  font-weight: 900;
-  color: #fff;
-  text-align: center;
-  line-height: 35px;
-  font-size: 0.8rem;
-}
-
 .footer-link {
   color: #777;
   transition: all 0.3s;
 }
 
 .footer-link:hover, .footer-link:focus {
-  color: #5954cb;
+  color: #50D093;
   text-decoration: none;
 }
 
@@ -1134,7 +1030,7 @@ section {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #5954cb;
+  color: #50D093;
 }
 
 .social-link {
@@ -1153,10 +1049,10 @@ section {
 }
 
 .social-link:hover, .social-link:focus {
-  background: #5954cb;
+  background: #50D093;
   color: #fff;
   text-decoration: none;
-  border-color: #5954cb;
+  border-color: #50D093;
 }
 
 .scropll-top-btn {
@@ -1213,6 +1109,28 @@ section {
   height: 93.628809%;
 }
 
+.device[data-device=iPhoneXBasicBlack][data-orientation=portrait][data-color=black] {
+  padding-bottom: 202.898072%;
+}
+
+.device[data-device=iPhoneXBasicBlack][data-orientation=portrait][data-color=black] .screen {
+  top: 2.185596%;
+  left: 5.5%;
+  width: 90.225895%;
+  height: 93.628809%;
+}
+
+.device[data-device=iPhoneXBasicBlue][data-orientation=portrait][data-color=black] {
+  padding-bottom: 202.898072%;
+}
+
+.device[data-device=iPhoneXBasicBlue][data-orientation=portrait][data-color=black] .screen {
+  top: 2.185596%;
+  left: 5.5%;
+  width: 90.225895%;
+  height: 93.628809%;
+}
+
 .owl-carousel .owl-dots {
   margin-top: 0 !important;
 }
@@ -1232,15 +1150,51 @@ section {
 }
 
 .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] .screen {
-  top: 15px;
-  left: 5%;
-  width: 90%;
+  top: 20px;
+  left: 7%;
+  width: 88%;
   height: 93.49030471%;
   border: 0px;
   z-index: -1;
   overflow: hidden;
   overflow: hidden;
 }
+
+
+.device[data-device="iPhoneXBasicBlack"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 202.898072%;
+  background-image: url(../img/device-mockups/iPhoneX/portrait_basic_black.png) !important;
+  z-index: initial;
+}
+
+.device[data-device="iPhoneXBasicBlack"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 15px;
+  left: 6%;
+  width: 89%;
+  height: 93.49030471%;
+  border: 0px;
+  z-index: -1;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.device[data-device="iPhoneXBasicBlue"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 202.898072%;
+  background-image: url(../img/device-mockups/iPhoneX/portrait_basic_blue.png) !important;
+  z-index: initial;
+}
+
+.device[data-device="iPhoneXBasicBlue"][data-orientation="portrait"][data-color="black"] .screen {
+  top: 15px;
+  left: 6%;
+  width: 89%;
+  height: 93.49030471%;
+  border: 0px;
+  z-index: -1;
+  overflow: hidden;
+  overflow: hidden;
+}
+
 
 /* =========================================
 
@@ -1420,7 +1374,6 @@ section {
 
 .btn-primary:hover {
   color: #fff;
-  /* #FFCD1A Candlelight yellow */
   background-color: #FFCD1A;
   border-color: #FFCD1A;
 }
@@ -1431,15 +1384,15 @@ section {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #5954cb;
-  border-color: #5954cb;
+  background-color: #50D093;
+  border-color: #50D093;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #3c37b5;
-  border-color: #3934ab;
+  background-color: #50D093;
+  border-color: #AAE0C6;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -1517,14 +1470,14 @@ section {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #339EDF;
   border-color: #17a2b8;
 }
 
 .btn-info:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #8CCEF6;
+  border-color: #8CCEF6;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -2102,6 +2055,13 @@ mark,
   content: "\2014 \00A0";
 }
 
+.text-primary {
+  color: #50D093 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #3c37b5 !important;
+}
 
 /*
  * 4. PAGINATION
